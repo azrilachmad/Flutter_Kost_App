@@ -1,16 +1,29 @@
-# flutter_basic
+# Kost App
 
-A new Flutter project.
+An Application for find a 'Kost' House (Indonesian word for Hostel)
 
-## Getting Started
+## Guidance
 
-This project is a starting point for a Flutter application.
+### Coding style
+This project use Google standard style  
+(details here https://google.github.io/styleguide/jsguide.html)
 
-A few resources to get you started if this is your first Flutter project:
+### Commit Rules
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+New branch should begin from latest commit of branch **development**  
+Each branch except **master** and **development** should begin with prefix:  
+- `feature/`
+- `hotfix/`
+- `release/`
+- `support/`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For every commit, its message should follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)
+For example:
+- `feat(ui): slice login page`
+- `fix(login): token not stored correctly`
+- `docs: update documentation for README.md`
+
+### How to install
+
+1. `flutter doctor -v`
+2. `flutter start`
